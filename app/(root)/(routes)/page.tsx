@@ -12,9 +12,5 @@ export default function Home() {
         }
     }, [isOpen, onOpen]);
 
-    return (
-        <div className="p-4">
-            <h1>Root page</h1>
-        </div>
-    );
+    return null;
 }
